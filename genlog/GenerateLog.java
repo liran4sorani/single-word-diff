@@ -19,7 +19,7 @@ public class GenerateLog {
 	
 	
 	public static void main(String[] args) {
-		LogManager lm = new LogManager("1973-03-23 13:01","C:\\temp\\task\\worddiff\\dictionary_english.dic");
+		LogManager lm = new LogManager("1973-03-23 13:01","dictionary_english.dic");
 		int bulkSize = 100;
 		int numBulks = 1;
 		String outFile = "log_records.txt";
